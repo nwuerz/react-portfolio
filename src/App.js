@@ -32,11 +32,3 @@ function App() {
 }
 
 export default App;
-
-{/* <div className="container">
-        <div className="row">
-          <Jumbotron title="About Me">
-
-          </Jumbotron>
-        </div>
-      </div> */}

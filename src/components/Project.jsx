@@ -16,6 +16,7 @@ const Project = (props) => {
                 id="txt-clr"
                 href={props.projectLink}
                 target="_blank"
+                rel="noopener noreferrer"
                 style={{ textDecoration: 'none' }}
               >
                 {props.projectName}
@@ -24,6 +25,7 @@ const Project = (props) => {
                 id="txt-clr"
                 href={props.githubLink}
                 target="_blank"
+                rel="noopener noreferrer"
                 style={{ textDecoration: 'none' }}
               >
                 <i className="fab fa-github"></i>
