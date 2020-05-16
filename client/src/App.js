@@ -1,17 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Route, Switch, useLocation } from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import { useDocumentTitle } from './useDocumentTitle';
 
 
 function App() {
-
+ useDocumentTitle({'/':'About', '/portfolio': 'Portfolio', "/contact": 'Contact'});
   return (
-    <Router>
       <>
       <Navbar />
       <Switch>
@@ -27,7 +27,6 @@ function App() {
       </Switch>
       <Footer />
       </>
-    </Router>
   );
 }
 

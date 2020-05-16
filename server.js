@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8080;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, "client", "build")));
 
 app.use(morgan('dev'));
 
@@ -41,5 +41,3 @@ app.use(function(req, res) {
   });
 
 app.listen(PORT);
-
-module.exports = router;

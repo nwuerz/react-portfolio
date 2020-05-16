@@ -1,0 +1,15 @@
+import React from 'react';
+
+import {useLocation } from "react-router-dom";
+
+//{/: 'ABout}
+export const useDocumentTitle = (paths) => {
+    const location = useLocation();
+    React.useEffect(()=>{
+      Object.keys(paths).forEach(path => {
+        if(location.pathname === path){
+            document.title = paths[path];
+        }
+      })
+    },[location])
+}
