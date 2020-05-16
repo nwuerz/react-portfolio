@@ -10,7 +10,7 @@ import { useDocumentTitle } from './useDocumentTitle';
 
 
 function App() {
- useDocumentTitle({'/':'About', '/portfolio': 'Portfolio', "/contact": 'Contact'});
+ useDocumentTitle({'/':'About | Nick Wuerz', '/portfolio': 'Portfolio | Nick Wuerz', "/contact": 'Contact | Nick Wuerz'});
   return (
       <>
       <Navbar />
