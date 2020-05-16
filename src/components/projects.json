@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "projectName": "random password generator",
+        "imageSource": "../images/password-generator-ss.JPG",
+        "projectLink": "https://nwuerz.github.io/random-password-generator",
+        "githubLink": "https://github.com/nwuerz/random-password-generator"
+    },
+    {
+        "id": 2,
+        "projectName": "code quiz",
+        "imageSource": "../images/code-quiz-ss.JPG",
+        "projectLink": "https://nwuerz.github.io/code-quiz",
+        "githubLink": "https://github.com/nwuerz/code-quiz"
+    },
+    {
+        "id": 3,
+        "projectName": "day planner",
+        "imageSource": "../images/day-planner-ss.JPG",
+        "projectLink": "https://nwuerz.github.io/day-planner",
+        "githubLink": "https://github.com/nwuerz/day-planner"
+    },
+    {
+        "id": 4,
+        "projectName": "weather dashboard",
+        "imageSource": "../images/weather-dashboard-ss.JPG",
+        "projectLink": "https://nwuerz.github.io/weather-dashboard",
+        "githubLink": "https://github.com/nwuerz/weather-dashboard"
+    },
+    {
+        "id": 5,
+        "projectName": "InstaChef",
+        "imageSource": "../images/recipe-app.JPG",
+        "projectLink": "https://nwuerz.github.io/InstaChef",
+        "githubLink": "https://github.com/nwuerz/InstaChef"
+    },
+    {
+        "id": 6,
+        "projectName": "doomsday web store",
+        "imageSource": "../images/webstore.JPG",
+        "projectLink": "https://doomsday-webstore.herokuapp.com/",
+        "githubLink": "https://github.com/nwuerz/webstore.git"
+    }
+]

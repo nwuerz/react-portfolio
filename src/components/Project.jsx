@@ -7,7 +7,7 @@ const Project = (props) => {
         <div className="row">
           <div id="game-img" className="thumbnail text-center">
             <img
-              src={props.imgSrc}
+              src={props.imageSource}
               className="img-fluid portfolio-img shadow-lg"
               alt="Responsive image"
             />
