@@ -29,14 +29,13 @@ const About = () => {
               </p>
 
               <p>
-                If you'd like to know more, please check out my
+                If you'd like to know more, please check out my 
                 <a
                   className="links"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/nwuerz"
-                >
-                  GitHub repo
+                > GitHub repo
                 </a>
                 ,
                 <a
@@ -47,7 +46,7 @@ const About = () => {
                 >
                   LinkedIn
                 </a>
-                or my
+                or my 
                 <a
                   className="links"
                   target="_blank"
