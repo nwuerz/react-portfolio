@@ -1,11 +1,10 @@
 require("dotenv").config();
 const express = require("express");
 const path = require("path");
-const router = require("express")
 const morgan = require('morgan');
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3001;
 
 
 app.use(express.urlencoded({ extended: true }));
@@ -40,4 +39,6 @@ app.use(function(req, res) {
     res.sendFile(path.join(__dirname, "./client/build/index.html"));
   });
 
-app.listen(PORT);
+app.listen(PORT, () => {
+    console.log(`listening on port ${PORT}`);
+});
